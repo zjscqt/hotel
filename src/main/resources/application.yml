@@ -1,0 +1,19 @@
+
+  spring:
+    server:
+      port: 8080
+    datasource:
+      url: jdbc:mysql://rm-bp16885t0yn5g56gybo.mysql.rds.aliyuncs.com:3306/hotel?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+      username: root
+      password: Deeptest2018
+      driverClassName: com.mysql.cj.jdbc.Driver
+
+    jpa:
+      database: mysql
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+
+
+
+
