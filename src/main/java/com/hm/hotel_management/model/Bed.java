@@ -7,6 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * 床
+ */
 @Entity
 @Table(name = "bed")
 public class Bed {

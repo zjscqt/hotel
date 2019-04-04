@@ -6,6 +6,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.util.Date;
 
+/**
+ * 收入实体类
+ */
 @Entity
 @Table(name = "Income")
 public class Income {

@@ -6,6 +6,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+/**
+ * 旅客实体类
+ */
 @Entity
 @Table(name = "customer")
 public class Customer {
